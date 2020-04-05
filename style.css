@@ -1,0 +1,50 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.text-over-img{
+    position: absolute;
+    z-index:1;
+    font-size: .5em;
+    margin-top: -20px;
+    margin-left: 145px;
+}
+
+.img3{
+    height: 120px;
+}
+
+.jumbotron{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.6)), url(images/zoe-jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.my-container{
+    padding-top: 170px;
+}
+
+#btn-contact-me{
+background-color: #40407a;
+border: none;
+box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+0.125em 0.125em 0.25em rgba(0,0,0,.15);;
+}
+
+.my-video {
+	text-align: center;
+} 
+
+#link-backtotop{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
+}
+
+#my-footer{
+    text-align: center;
+}
